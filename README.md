@@ -1,6 +1,6 @@
 # d360-blueprint
 
-A Claude Code skill that generates a fully self-contained HTML documentation file from Salesforce Data Cloud metadata.
+A Claude Code skill that generates a fully self-contained HTML documentation file from Salesforce Data 360 metadata.
 
 ## What it documents
 
