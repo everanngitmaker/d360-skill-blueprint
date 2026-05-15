@@ -564,7 +564,7 @@ def generate_html(data, brand):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data',   required=True, help='Path to parsed metadata JSON')
-    parser.add_argument('--brand',  required=True, help='Brand name (e.g. Disney)')
+    parser.add_argument('--brand',  required=True, help='Brand name (e.g. Acme)')
     parser.add_argument('--output', required=True, help='Output HTML path')
     args = parser.parse_args()
 

@@ -19,10 +19,10 @@ and TopK filters).
 
 Ask the user for:
 
-1. **Brand name** — used to label the document (e.g. "Disney", "Nike"). No default.
+1. **Brand name** — used to label the document (e.g. "Acme", "Contoso"). No default.
 2. **Metadata source** — one of:
-   - **Folder path**: a local folder already containing Salesforce metadata (e.g. `"disney-preview copy"`). The skill will look for `force-app/main/default/` inside it, or treat the folder itself as the metadata root if that subdirectory doesn't exist.
-   - **Org alias + manifest**: retrieve live from a connected org. Ask for the org alias (e.g. `disney-dev`) and manifest path (default: `manifests/package.xml`).
+   - **Folder path**: a local folder already containing Salesforce metadata (e.g. `"acme-preview copy"`). The skill will look for `force-app/main/default/` inside it, or treat the folder itself as the metadata root if that subdirectory doesn't exist.
+   - **Org alias + manifest**: retrieve live from a connected org. Ask for the org alias (e.g. `acme-dev`) and manifest path (default: `manifests/package.xml`).
 
 Ask all required fields in one message. If the user provides a folder path, skip Step 2. If the user provides an org alias, proceed with Step 2.
 
@@ -75,7 +75,7 @@ python3 ~/.claude/plugins/marketplaces/my-skills/plugins/my-skills/skills/d360-b
 ## Step 6 — Report completion
 
 Tell the user:
-- The output file path (e.g. `./disney-data360-blueprint.html`)
+- The output file path (e.g. `./acme-data360-blueprint.html`)
 - A one-line summary of what's inside (N streams, IR rules, N data graphs)
 - That the file is fully self-contained and can be opened in any browser or shared as-is
 
