@@ -36,8 +36,9 @@ Claude will ask for a **brand name** and a **metadata source** (local folder pat
 
 ## Installation
 
-This skill is part of the [my-skills](https://github.com/everanngitmaker) plugin collection. Copy the skill directory into your Claude Code skills folder:
+Register this repo as a Claude Code plugin marketplace, then install the skill:
 
 ```bash
-cp -r d360-blueprint ~/.claude/plugins/marketplaces/my-skills/plugins/my-skills/skills/
+claude plugin marketplace add https://github.com/everanngitmaker/d360-skill-blueprint.git
+claude plugin install d360-blueprint
 ```
